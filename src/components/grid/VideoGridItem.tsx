@@ -25,7 +25,7 @@ export default function VideoGridItem() {
                         />
                     </a>
 
-                    <div clas="flex flex-col">
+                    <div className="flex flex-col">
                         <a href="video.html">
                             <p className="text-slate-900 text-sm font-semibold">
                                 Video title
