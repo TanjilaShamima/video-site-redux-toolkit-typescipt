@@ -1,11 +1,16 @@
+'use client';
 import Footer from "@/src/components/Footer/Footer";
 import Navbar from "@/src/components/Navbar/Navbar";
 import VideoPlayer from "@/src/components/description/Player";
 import VideoDescription from "@/src/components/description/VideoDescription";
 import RelatedVideoList from "@/src/components/list/RelatedVideoList";
+import { useParams } from "next/navigation";
 import React from "react";
 
 const VideoDetailsPage = () => {
+  const params = useParams();
+  const id = String(params.id).split("%3D")[1];
+  console.log("id", id);
   return (
     <div>
       <Navbar />
