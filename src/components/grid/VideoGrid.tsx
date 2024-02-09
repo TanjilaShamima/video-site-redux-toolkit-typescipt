@@ -1,7 +1,7 @@
 "use client";
 
 import VideoGridItem from "./VideoGridItem";
-import { ReduxStateType, useDispatch, useSelector } from "@/src/lib/providers";
+import { ReduxStateType, useDispatch, useSelector } from "@/src/lib/redux/store";
 import { useEffect } from "react";
 import { fetchVideos } from "@/src/lib/redux/slices/VideoSlice/VideoSliceThunk";
 import { videoSlice } from "@/src/lib/redux/slices/VideoSlice/VideoSlice";

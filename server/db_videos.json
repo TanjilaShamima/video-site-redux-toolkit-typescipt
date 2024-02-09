@@ -13,7 +13,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
             "tags": ["javascript", "react", "tips"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
             "tags": ["vscode", "tips"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 3,
@@ -43,7 +43,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
             "tags": ["tailwind", "css"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 4,
@@ -58,7 +58,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
             "tags": ["debounce", "javascript", "tips"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 5,
@@ -73,7 +73,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
             "tags": ["sass", "css", "ui"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 6,
@@ -88,7 +88,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
             "tags": ["react", "router", "javascript"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         },
         {
             "id": 7,
@@ -103,7 +103,7 @@
             "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
             "tags": ["tailwind", "css", "ui"],
             "likes": 0,
-            "unlikes": 0
+            "unLikes": 0
         }
     ],
     "tags": [

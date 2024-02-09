@@ -1,13 +1,18 @@
-export default function VideoPlayer() {
+interface Props {
+  title: string;
+  thumbnail: string;
+}
+
+export default function VideoPlayer(props: Props) {
   return (
     <iframe
       width="100%"
       className="aspect-video"
-      src="https://www.youtube-nocookie.com/embed/6O4s7v28nlw"
-      title="Some video title"
+      src={props.thumbnail}
+      title={props.title}
       frameBorder=""
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullscreen
+      allowFullScreen
     ></iframe>
   );
 }

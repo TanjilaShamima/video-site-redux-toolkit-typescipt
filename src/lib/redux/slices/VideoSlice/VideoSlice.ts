@@ -14,8 +14,8 @@ export interface VideoType {
   link: string;
   thumbnail: string;
   tags: string[];
-  likes: number;
-  unLikes: number;
+  likes: string;
+  unLikes: string;
 }
 
 export interface VideosStateType {
