@@ -11,11 +11,14 @@ export default function VideGrid() {
   const { videos, isError, isLoadingLing, error } = useSelector(
     (state) => state.videos
   );
+  const {selectedTags, search} = useSelector((state) => state.filterSearch);
   const dispatch = useDispatch();
 
+
+
   useEffect(() => {
-    dispatch(fetchVideos());
-  }, []);
+    dispatch(fetchVideos({tags: selectedTags, search: search}));
+  }, [selectedTags, search, dispatch]);
 
   return (
     <section className="pt-12">
