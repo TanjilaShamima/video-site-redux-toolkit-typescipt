@@ -21,7 +21,7 @@ export default function RelatedVideoListItem({relatedVideo}: Props) {
       </div>
 
       <div className="flex flex-col w-full">
-        <a href="#">
+        <a href={`/video-details/id=${relatedVideo.id}`}>
           <p className="text-slate-900 text-sm font-semibold">
             {relatedVideo.title}
           </p>
