@@ -17,7 +17,6 @@ export default function VideGrid() {
     dispatch(fetchVideos());
   }, []);
 
-  console.log("videos", videos);
   return (
     <section className="pt-12">
       <section className="pt-12">

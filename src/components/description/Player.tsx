@@ -10,7 +10,7 @@ export default function VideoPlayer(props: Props) {
       className="aspect-video"
       src={props.thumbnail}
       title={props.title}
-      frameBorder=""
+      frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>

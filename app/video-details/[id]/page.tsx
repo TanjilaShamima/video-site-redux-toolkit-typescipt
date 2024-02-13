@@ -16,7 +16,6 @@ const VideoDetailsPage = () => {
   const { videoDetails, isLoading, isError, error } = useSelector(
     (state) => state.videoDetails
   );
-  console.log("video", videoDetails);
 
   useEffect(() => {
     dispatch(fetchSingleVideo(Number(id)));
@@ -44,7 +43,7 @@ const VideoDetailsPage = () => {
               />
             </div>
 
-            <RelatedVideoList />
+            <RelatedVideoList id={Number(id)}  tags={videoDetails.tags} />
           </div>
         </div>
       </section>
